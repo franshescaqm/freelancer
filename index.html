@@ -8,12 +8,12 @@
     <!--font type for web: Montserrat and Lato-->
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
     <!--Linking CSS extension-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <!--Web Page header-->
     <header>
-      <div class="navigation">
       <nav>
         <!--Navigation text on the left-->
         <span class="uppercase">Start Bootstrap</span>
@@ -24,31 +24,36 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-      </div>
     </header>
 <!--Initiating Website-->
-<div>
+<section id="first-part">
+ <div class="centering">
   <!--Inserting first image-->
-  <figure>
+  <figure class="first-photo">
     <img src="assets/images/profile.png" alt="Little-Man">
   </figure>
   <h1 class="uppercase" >Start Bootstrap</h1>
+   <hr class="fa fa-star fa-2x">
   <p>Web Developer - Graphic Artist - User Experience Designer</p>
-</div>
-
-<div>
-  <h2 class="uppercase" >Portfolio</h2>
+ </div>
+</section>
+<!--Second part-->
+<section id=second-part>
+ <div class="centering-two">
+   <h2 class="uppercase" >Portfolio</h2>
+   <hr id="star-two" class="fa fa-star fa-2x">
   <!-- Importing the rest of the images -->
-  <figure>
-    <img src="assets/images/portfolio/cabin.png" alt="Cabin">
-    <img src="assets/images/portfolio/cake.png" alt="Cake">
-    <img src="assets/images/portfolio/circus.png" alt="Circus">
-    <img src="assets/images/portfolio/game.png" alt="Game">
-    <img src="assets/images/portfolio/safe.png" alt="Safe">
-    <img src="assets/images/portfolio/submarine.png" alt="Submarine">
-  </figure>
-</div>
-
+   <figure class="group-two">
+     <img src="assets/images/portfolio/cabin.png" alt="Cabin">
+     <img src="assets/images/portfolio/cake.png" alt="Cake">
+     <img src="assets/images/portfolio/circus.png" alt="Circus">
+     <img src="assets/images/portfolio/game.png" alt="Game">
+     <img src="assets/images/portfolio/safe.png" alt="Safe">
+     <img src="assets/images/portfolio/submarine.png" alt="Submarine">
+   </figure>
+ </div>
+</section>
+<!--Third part-->
 <div>
   <h2 class="uppercase">About</h2>
   <!--Text going into the left-->

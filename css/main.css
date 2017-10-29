@@ -1,34 +1,40 @@
-/* Estilo de Header*/
-body{
+/*Valor universal*/
+*{
   box-sizing: border-box;
-  background-color: gray;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
 }
-
+/* Estilo reutilizable*/
 .uppercase{
   text-transform: uppercase;
 }
 
-nav{
-margin: 2% 15% 0%;
-/*outline: 1px solid red;*/
-}
+/*:before :after{
 
+}*/
+
+/*Empezando con estilo header*/
 header{
   position: fixed;
   background-color: #2c3e50; /*Azul Marino escuro*/
-  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   width: 100%;
-  height:15%;
-  left:0;
-  top:0;
+  height: 110px;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+}
+
+nav{
+margin: 2% 15% 0%;
 }
 
 span{
   float: left;
   font-size: 32px;
   color:white;
-  /*outline: 1px solid pink;*/
 }
 
 ul{
@@ -36,8 +42,7 @@ ul{
   padding: 0px;
   margin:0px;
   float: right;
-  font-size: 16px;
-  /*outline: 1px solid white;*/
+  font-size: 18px;
 }
 
 /* Para que la lista tenga un efecto de bloque pero ajustandose a su contenido*/
@@ -45,7 +50,6 @@ li{
   display: inline-block;
   padding: 12px;
   margin:0px;
-  /*outline: 1px solid yellow;*/
 }
 
 /*Quitar el delineado de la propiedad que anchor le da automaticamente*/
@@ -53,3 +57,69 @@ a{
   text-decoration: none;
   color: white;
 }
+
+/* -->Initiating Website */
+#first-part{
+  outline: 1px solid yellow;
+  background-color: #18bc9c;
+  text-align: center;
+  color: white;
+  height: 768px;
+}
+
+#first-part div {
+  outline: 1px solid red;
+  margin-top: 110px;
+}
+#first-part img {
+  margin-top: 92px;
+  margin-bottom: 50px;
+}
+
+#first-part h1 {
+  font-size: 5em;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.first-photo img{
+  width: 290px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 1.85em;
+  font-family: "Lato";
+}
+
+/*Second Part
+.centering-two{
+  outline: 1px solid yellow;
+  margin-top: 113px;
+  text-align: center;
+
+}
+
+#second-part h2{
+  outline: 1px solid green;
+  font-size: 48px;
+  font-weight: 900;
+  color: #212529;
+  margin-bottom: 15px;
+}
+
+#second-part hr {
+  outline: 1px solid red;
+}
+
+.group-two{
+  display: inline-block;
+  text-align: center;
+  width: 1500px;
+
+}
+
+.group-two img{
+  width: 380px;
+  margin: 12px;
+}*/

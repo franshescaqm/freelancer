@@ -211,7 +211,7 @@ font-family: 'Montserrat', sans-serif;
   width: 55%;
 }
 
-/*Estilo Botton*/
+/*Estilo del Boton*/
 #two-b{
   margin-top: 280px;
   margin-right: 880px;
@@ -229,9 +229,32 @@ font-family: 'Montserrat', sans-serif;
   filter: contrast(0.7);
 }
 
-/*Pie de pagina*/
+/*Pie de pagina  ultima parte*/
 footer{
+  width: 100%;
   background: #2c3e50;
-  height: 335px;
+  height: 400px;
   color: white;
   }
+
+  footer h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  }
+
+  .last-part span .words{
+  font-family: 'lato', sans-serif;
+  font-size: 22px;
+  }
+
+  .lp-two span #icon{
+  font-family: 'lato', sans-serif;
+  font-size: 90px;
+  }
+
+#copyright{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 250px;
+  outline: 1px solid red;
+}

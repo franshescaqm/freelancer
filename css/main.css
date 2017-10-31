@@ -127,30 +127,37 @@ p {
 /*Divide la segunda parte de la web con la tercera parte*/
 .part-three{
   margin-top: 130px;
-  padding-top: 105px;
+  padding-top: 120px;
   text-align: center;
 }
 
 #third-part h2 {
  font-family: 'Montserrat', sans-serif;
-  font-size: 55px;
+  font-size: 53px;
   font-weight: 900;
   line-height: 58px;
+  margin-bottom: 20px;
 }
 
 #star-three{
-  margin: 8px;
+  position: relative;
+  bottom: 80px;
+  left: 420px;
+  margin-bottom: 30px;
 }
 
 div .two-paragraphs {
 display: inline-block;
 text-align: left;
 column-count: 2;
-column-gap: 10px;
-font-size: 12px;
-line-height: 30px;
-margin: 0px 520px;
+column-gap: 12px;
+font-size: 10.5px;
+line-height: 28px;
+margin: 80px 320px 0px 320;
+width: 60%;
+height: 90%
 font-family: 'Lato', sans-serif;
+outline-color: 1px solid white;
 }
 
 div .text-two{
@@ -175,9 +182,13 @@ div .text-two{
 }
 
 /*part-four*/
+#fourth-part{
+  width: 100%;
+}
+
 .part-four{
-margin-top:130px;
-margin-bottom: 450px;
+margin-top:120px;
+margin-bottom: 600px;
 text-align: center;
 }
 
@@ -197,8 +208,8 @@ font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   border: none;
   outline-color: white;
-  font-size: 30px;
-  margin-top: 45px;
+  font-size: 28px;
+  margin-top: 150px;
   margin-left: 100px;
   width: 55%;
   height: 40px;
@@ -207,14 +218,14 @@ font-family: 'Montserrat', sans-serif;
 
 .list-two .line{
   outline: 1px solid #F2F4F4;
-  margin-left: 500px;
+  margin-left: 370px;
   width: 55%;
 }
 
 /*Estilo del Boton*/
 #two-b{
-  margin-top: 280px;
-  margin-right: 880px;
+  margin-top: 180px;
+  margin-right: 540px;
   padding: 18px;
   width: 100px;
   background-color: #18bc9c;
@@ -233,7 +244,7 @@ font-family: 'Montserrat', sans-serif;
 footer{
   width: 100%;
   background: #2c3e50;
-  height: 400px;
+  height: 500px;
   color: white;
   }
 
@@ -253,8 +264,8 @@ footer{
   }
 
 #copyright{
-  font-size: 20px;
-  text-align: center;
-  margin-top: 250px;
-  outline: 1px solid red;
+  position: relative;
+  top: 300PX;
+  left: 600px;
+  font-size: 15px;
 }
